@@ -42,7 +42,7 @@ main {
 
 .card-sedans {
   border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px; 
+  border-bottom-left-radius: 5px;
   height: 100%;
   padding: 32px;
   background-color: hsl(31, 77%, 52%);
@@ -61,6 +61,8 @@ main {
 }
 
 .card-luxury {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   height: 100%;
   background-color: hsl(179, 100%, 13%);
   padding: 32px;
