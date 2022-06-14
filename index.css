@@ -12,6 +12,16 @@ body {
 }
 
 h1 {
+  font-size: 30px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #eb9935;
+  color: rgb(249, 237, 237);
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.card-h1 {
   font-family: "Big Shoulders Display", cursive;
   margin-bottom: 35px;
 }
@@ -28,7 +38,7 @@ a {
   text-decoration: none;
   color: white;
   margin-top: 40px;
-  background-color: #ffb703;
+  background-color: hsl(179, 100%, 13%);
   padding: 10px;
   border-radius: 20px;
 }

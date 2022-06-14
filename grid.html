@@ -9,10 +9,32 @@
   </head>
   <body>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+      }
+
+      h1 {
+        font-size: 25px;
+        font-family: "Michroma", sans-serif;
+        background-color: #eb9935;
+        color: rgb(249, 237, 237);
+        padding: 2px 5px;
+        border-radius: 8px;
+        margin: 15px 20px;
+      }
+
+      a {
+        font-family: "Michroma", sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+        background-color: #ffb703;
+        padding: 10px;
+        border-radius: 10px;
       }
 
       .main-container {
@@ -25,18 +47,18 @@
       }
 
       .grid-container {
+        border-radius: 10px;
         width: 800px;
         height: 550px;
         display: grid;
-        gap: 10px;
+        gap: 12px;
         background-color: #181d35;
         padding: 100px;
         grid-template-areas:
           "A A A A   A A A A   A A A B  B B B B"
           "A A A A   A A A A   A A A B  B B B B"
-          "C C C C   C C C C   D D D D  D D D D"
-          "C C C C   C C C C   E E E E  E E E E"
-          ;
+          "C C C C   C C C D   D D D D  D D D D"
+          "C C C C   C C C E   E E E E  E E E E";
       }
 
       .grid-item {
@@ -49,7 +71,7 @@
         grid-area: A;
         /* grid-column-start: 1;
         grid-column-end: 3; */
-        background-color: #ec512c;
+        background-color: #ea461d;
       }
 
       .item2 {
@@ -75,7 +97,7 @@
       }
     </style>
     <div class="main-container">
-      <h1>Grid Layout</h1>
+      <h1>GRID &nbsp; &nbsp; &nbsp; LAYOUT</h1>
 
       <div class="grid-container">
         <div class="grid-item item1"></div>
@@ -84,6 +106,8 @@
         <div class="grid-item item4"></div>
         <div class="grid-item item5"></div>
       </div>
+
+      <a href="./index.html">Back To Flex Layout</a>
     </div>
   </body>
 </html>
