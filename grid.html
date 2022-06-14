@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .main-container {
+        padding: 50px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .grid-container {
+        width: 800px;
+        height: 550px;
+        display: grid;
+        gap: 10px;
+        background-color: #181d35;
+        padding: 100px;
+        grid-template-areas:
+          "A A A A   A A A A   A A A B  B B B B"
+          "A A A A   A A A A   A A A B  B B B B"
+          "C C C C   C C C C   D D D D  D D D D"
+          "C C C C   C C C C   E E E E  E E E E"
+          ;
+      }
+
+      .grid-item {
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+      }
+
+      .item1 {
+        grid-area: A;
+        /* grid-column-start: 1;
+        grid-column-end: 3; */
+        background-color: #ec512c;
+      }
+
+      .item2 {
+        grid-area: B;
+        background-color: #f4a32d;
+      }
+
+      .item3 {
+        grid-area: C;
+        /* grid-column-start: 1;
+        grid-column-end: 3; */
+        background-color: #53ab5b;
+      }
+
+      .item4 {
+        grid-area: D;
+        background-color: #3fadfc;
+      }
+
+      .item5 {
+        grid-area: E;
+        background-color: #3fadfc;
+      }
+    </style>
+    <div class="main-container">
+      <h1>Grid Layout</h1>
+
+      <div class="grid-container">
+        <div class="grid-item item1"></div>
+        <div class="grid-item item2"></div>
+        <div class="grid-item item3"></div>
+        <div class="grid-item item4"></div>
+        <div class="grid-item item5"></div>
+      </div>
+    </div>
+  </body>
+</html>

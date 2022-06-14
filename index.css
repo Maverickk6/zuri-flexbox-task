@@ -23,10 +23,21 @@ p {
   margin-bottom: 35px;
 }
 
+a {
+  font-family: "Lexend Deca", sans-serif;
+  text-decoration: none;
+  color: white;
+  margin-top: 40px;
+  background-color: #ffb703;
+  padding: 10px;
+  border-radius: 20px;
+}
+
 .main-container {
   height: 100vh;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
