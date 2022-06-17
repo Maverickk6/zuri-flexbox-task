@@ -11,7 +11,7 @@ body {
   color: hsl(0, 0%, 95%);
 }
 
-h1 {
+.header-h1 {
   font-size: 30px;
   font-family: "Lexend Deca", sans-serif;
   background-color: #eb9935;
@@ -23,14 +23,16 @@ h1 {
 
 .card-h1 {
   font-family: "Big Shoulders Display", cursive;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 
 p {
   font-family: "Lexend Deca", sans-serif;
   color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.8;
   font-size: 15px;
-  margin-bottom: 35px;
+  padding-right: 40px;
+  margin-bottom: 50px;
 }
 
 a {
@@ -57,7 +59,7 @@ main {
   justify-content: center;
   align-items: center;
   height: 60%;
-  width: 50%;
+  width: 80%;
   border-radius: 10px;
 }
 
@@ -65,7 +67,7 @@ main {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   height: 100%;
-  padding: 32px;
+  padding: 32px 32px 32px 40px;
   background-color: hsl(31, 77%, 52%);
   display: flex;
   flex-direction: column;
@@ -75,7 +77,7 @@ main {
 .card-suvs {
   height: 100%;
   background-color: hsl(184, 100%, 22%);
-  padding: 32px;
+  padding: 32px 32px 32px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -86,7 +88,7 @@ main {
   border-bottom-right-radius: 5px;
   height: 100%;
   background-color: hsl(179, 100%, 13%);
-  padding: 32px;
+  padding: 32px 32px 32px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
